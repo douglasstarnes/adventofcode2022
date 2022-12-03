@@ -27,7 +27,7 @@ def pick_your_move(elf, outcome):
         return your_moves[elf_moves.index(elf)]
 
 
-with open("input.txt", "r") as f:
+with open("./day02/input.txt", "r") as f:
     lines = f.readlines()
 
 total = 0
